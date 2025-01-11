@@ -129,8 +129,10 @@ nav > h3{
     margin: auto;
 }
 
+/* Pillars styling */
+
 .pillars{
-    margin-top: 80px;
+    margin-top: 150px;
     height: 324px;
     width: 100%;
 
@@ -172,4 +174,38 @@ nav > h3{
 .pillar-card > p{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision Section Styling */
+
+.vision{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.vision > h3{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.vision > p{
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vision-card{
+    width: 30%;
+    border-radius: 16px;
+    padding: 24px;
 }
