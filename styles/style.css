@@ -443,4 +443,85 @@ select{
     background-color: #006a50;
 }
 
-.news1
+/* Donate section styling */
+
+.donate{
+    height: 464px;
+    width: 90%;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.donate > h3{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.donate > p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.donate-cards{
+    height: 264px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.donate-card{
+    width: 220px;
+    height: 120px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.15);
+    border: 1px solid #aaa;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px #aaa;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-block: 32px;
+}
+
+.taka{
+    background-color: #9ac4b9;
+}
+
+.donate > input{
+    display: block;
+    margin: 32px auto;
+    width: 950px;
+    height: 64px;
+    padding-block: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(14, 14, 14, 0.15);
+    border: none;
+}
+
+.donate > input:hover,
+.donate > input:focus,
+.donate > input:active{
+    background-color: #ddd;
+    color: #fff;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+}
+
+.donate > button{
+    padding: 12px 22px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 80px;
+}
+
