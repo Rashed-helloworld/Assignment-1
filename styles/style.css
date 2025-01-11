@@ -181,6 +181,7 @@ nav > h3{
 .vision{
     width: 100%;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .vision > h3{
@@ -205,7 +206,56 @@ nav > h3{
 }
 
 .vision-card{
+    height: 350px; 
     width: 30%;
     border-radius: 16px;
     padding: 24px;
+}
+
+.vision-card > button{
+    color: #fff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.vision-card:nth-child(3){
+    background-color: #f7ebcf;
+}
+
+.vision-card:nth-child(3) > button{
+    background-color: #ffc239;
+}
+
+.vision-card:nth-child(2){
+    background-color: #c6e4d6;
+}
+
+.vision-card:nth-child(2) > button{
+    background-color: #09a15c;
+}
+
+.vision-card:nth-child(1){
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.vision-card:nth-child(1) > button{
+    background-color: #5490f5;
+}
+
+.vision-card > img{
+    margin-bottom: 25px;
+}
+
+.vision-card > h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+.vision-card > p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 48px;
 }
