@@ -31,10 +31,6 @@ body{
     color: #0e0e0e;
 }
 
-.bold{
-    font-weight: 700;
-}
-
 .btn-primary{
     background-color: #006a50;
     color: #fff;
@@ -84,7 +80,7 @@ nav > h3{
     font-size: 32px;
 }
 
-/* Main Styling */
+/* Main-Part Styling */
 
 /* Banner */
 
