@@ -212,12 +212,6 @@ nav > h3{
     padding: 24px;
 }
 
-.vision-card > button{
-    color: #fff;
-    padding: 11px 20px;
-    border: none;
-    border-radius: 8px;
-}
 
 .vision-card:nth-child(3){
     background-color: #f7ebcf;
@@ -243,6 +237,25 @@ nav > h3{
     background-color: #5490f5;
 }
 
+.vision-card > button,
+.news-text > button{
+    color: #fff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.vision-card > button:hover,
+.news-text > button:hover{
+    color: #fff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6347;
+}
+
+
+
 .vision-card > img{
     margin-bottom: 25px;
 }
@@ -259,6 +272,8 @@ nav > h3{
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 48px;
 }
+
+/* Quote Styling */
 
 .quote{
     margin-top: 80px;
@@ -352,3 +367,80 @@ select{
     border: 1px solid #222;
     border-radius: 4px;
 }
+
+/* News Section Styling */
+
+.news{
+    width: 100%;
+    margin-top: 140px;
+}
+
+.news > h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+    width: 100%;
+}
+
+.news > p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    width: 95%;
+}
+
+.news1{
+    width: 100%;
+    height: 402px;
+    padding: 48px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.news-image{
+    width: 40%;
+}
+
+.news-text{
+    width: 55%;
+}
+
+.news-text > h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.news-text > img{
+    margin-block: 12px;
+    width: 134px;
+    height: 40px;
+}
+
+.news-text > p{
+    color:rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+
+.news-text > p:nth-child(even){
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+.news-image > img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.news-button{
+    background-color: #006a50;
+}
+
+.news1
