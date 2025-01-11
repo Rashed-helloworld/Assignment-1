@@ -13,6 +13,7 @@
 
 body{
     font-family: 'Fira-sans', sans-serif;
+    background-color: #f1f1f3;
     width: auto;
     padding: 40px;
 }
@@ -126,4 +127,49 @@ nav > h3{
 .banner-image > img{
     width: 100%;
     margin: auto;
+}
+
+.pillars{
+    margin-top: 80px;
+    height: 324px;
+    width: 100%;
+
+}
+
+.pillars > h3{
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+    font-weight: 40px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.pillar-card{
+    width: 23%;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.pillar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pillar-card > img{
+    margin-bottom: 25px;
+}
+
+.pillar-card > h4{
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.pillar-card > p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
 }
