@@ -446,10 +446,10 @@ select{
 /* Donate section styling */
 
 .donate{
-    height: 464px;
+    height: 600px;
     width: 90%;
     text-align: center;
-    margin: 80px auto;
+    margin: 150px auto;
 }
 
 .donate > h3{
@@ -522,6 +522,78 @@ select{
     color: #fff;
     border: none;
     border-radius: 8px;
-    margin-bottom: 80px;
 }
 
+.donate > button:hover {
+    background-color: #ff6347;
+    color:rgba(14, 14, 14, 1)
+}
+
+/* Subscribe section styling */
+
+.subs{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height:400px;
+    padding: 80px 100px;
+    margin: 140px auto;
+    border: none;
+    border-radius: 24px;
+    background-color: #c6e4d6;
+}
+
+.subs > h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color:rgba(14, 14, 14, 1);
+}
+
+.subs > p{
+    width: 70%;
+    margin: 16px auto;
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7);
+    margin-bottom: 16px;
+}
+
+.subs > input{
+    display: inline;
+    margin: 0;
+    width: 80%;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 18px 0 0 18px;
+    padding: 10px 20px;
+    color: rgba(14, 14, 14, 0.5);
+    border: none;
+    outline: none;
+}
+
+.subs > input:hover,
+.subs > input:active,
+.subs > input:active{
+    outline: 0;
+    border: none;
+    background-color: #ddd;
+    color: #000;
+}
+
+.subs-button{
+    height: 55px;
+    width: 10%;
+    background-color: #006a50;
+    border: none;
+    border-radius: 0 18px 18px 0;
+    color: #fff;
+}
+
+.subs-button:hover,
+.subs-button:focus,
+.subs-button:active{
+    outline: 0;
+    border: none;
+    background-color: #ff6347;
+    color: #000;
+}
