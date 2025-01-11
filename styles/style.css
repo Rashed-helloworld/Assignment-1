@@ -284,3 +284,71 @@ nav > h3{
     margin-top: 12px;
     margin-bottom: 4px;
 }
+
+/* Table styling */
+
+.opinion-table{
+    width: 100%;
+    margin: auto;
+}
+
+.opinion-table > h3{
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 1);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.table{
+    background-color: #fff;
+    height: 409px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+table{
+    height: 345px;
+    width: 1016px;
+    margin: auto;
+}
+
+td{
+    padding: 20px;
+}
+
+thead{
+    height: 72px;
+    background-color: #c6e4d6;
+}
+
+thead > tr > th{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 1);
+    font-weight: 700;
+}
+
+tbody > tr > td{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 1);
+    font-weight: 600;
+}
+
+table,
+tr,
+td {
+    border: 3px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+}
+
+select{
+    padding: 10px 14px;
+    background-color: #c6e4d6;
+    color: #0e0e0e;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #222;
+    border-radius: 4px;
+}
